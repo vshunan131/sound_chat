@@ -1,0 +1,23 @@
+{
+  "name": "sound_chat",
+  "version": "1.0.0",
+  "description": "- install firebase CLI with `npm install -g firebase-tools` - login with `firebase login` - initialize project with `firebase init hosting` (use existing project from the list) - deploy with `firebase deploy --only hosting`",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vshunan131/sound_chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vshunan131/sound_chat/issues"
+  },
+  "homepage": "https://github.com/vshunan131/sound_chat#README.md",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
